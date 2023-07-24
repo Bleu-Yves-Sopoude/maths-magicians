@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 
 const App = () => (
   <div className="h-screen flex items-center justify-center bg-blue-600">
