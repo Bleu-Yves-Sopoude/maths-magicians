@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h2><b>Leaderboard</b></h2>
+  <h2><b>Math Magicians</b></h2>
 
 </div>
 
