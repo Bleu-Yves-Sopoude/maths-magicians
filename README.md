@@ -78,7 +78,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Bleu-Yves-Sopoude/Leaderboard.git
+git clone https://github.com/Bleu-Yves-Sopoude/maths-magicians.git
 
 ### Install
 
