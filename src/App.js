@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+
 const App = () => (
   <div className="h-screen flex items-center justify-center bg-blue-600">
     <div className="bg-white p-6 rounded-lg shadow-lg">
