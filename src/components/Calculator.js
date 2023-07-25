@@ -1,12 +1,11 @@
 import React from 'react';
-import Result from '/Users/mrblue/Music/Microverse/Module 3/Projects/maths-magicians/src/components/Result.js'
+import Result from './Result';
 
-
-const Calculator= () => (
+const Calculator = () => (
   <div className="h-screen flex items-center justify-center bg-blue-600">
     <div className="bg-white p-6 rounded-lg shadow-lg">
       <div className="grid grid-cols-4 gap-0.5">
-        <Result/>
+        <Result />
         <button className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           AC
         </button>
