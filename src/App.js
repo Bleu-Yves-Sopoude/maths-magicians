@@ -4,7 +4,7 @@ import Calculator from './components/Calculator'; // Make sure to use the correc
 
 const App = () => (
   <div>
-      <Calculator />
+    <Calculator />
   </div>
 );
 
