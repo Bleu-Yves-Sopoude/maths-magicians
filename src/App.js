@@ -1,12 +1,11 @@
 // src/App.js
 import React from 'react';
-import  Calculator  from './components/Calculator'; // Make sure to use the correct path to Calculator.js
+import Calculator from './components/Calculator'; // Make sure to use the correct path to Calculator.js
 
-const App = () =>  (
-    <div>
+const App = () => (
+  <div>
       <Calculator />
-    </div>
-  );
-
+  </div>
+);
 
 export default App;
