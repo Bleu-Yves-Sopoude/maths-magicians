@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Leaderdoard\] ](#-leaderdoard-)
+- [📖 \[Math-Magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
