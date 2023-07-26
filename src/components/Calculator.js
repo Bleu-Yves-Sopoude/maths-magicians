@@ -1,11 +1,7 @@
-import React from 'react';
+import React ,{ useState } from 'react';
 import calculate from '../logic/calculate';
-import { useState } from 'react';
 
-
-
-
-const Calculator = () => {
+  const Calculator = () => {
 
   const [state, setCalculatorData] = useState({
     total: null,
@@ -18,20 +14,22 @@ const Calculator = () => {
     setCalculatorData(newState);
   };
 
-  
-  return(
-  <div className="h-screen flex items-center justify-center bg-blue-600">
+return(
+
+    <div className="h-screen flex items-center justify-center bg-blue-600">
     <div className="bg-white p-6 rounded-lg shadow-lg">
       <div className="grid grid-cols-4 gap-0.5">
-      <div
-      className="col-span-4 text-right py-2 px-4 text-3xl border rounded bg-gray-700 text-white"
-      type="text"
-      readOnly> {state.next || state.total || '0'}</div>
-    
+        <div
+        className="col-span-4 text-right py-2 px-4 text-3xl border rounded bg-gray-700 text-white"
+        type="text"
+        readOnly> 
+      { state.next || state.total || '0'}
+      </div>
+
         <button onClick={() => handleClickEvent('AC')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           AC
         </button>
-        <button  onClick={() => handleClickEvent('+/-')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
+        <button onClick={() => handleClickEvent('+/-')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           +/-
         </button>
         <button onClick={() => handleClickEvent('%')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
@@ -70,10 +68,10 @@ const Calculator = () => {
         <button onClick={() => handleClickEvent('2')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           2
         </button>
-        <button onClick={() => handleClickEvent('3')}className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
+        <button onClick={() => handleClickEvent('3')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           3
         </button>
-        <button onClick={() => handleClickEvent('+')} onClick={() => handleClickEvent('+')} className="col-span-1  bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
+        <button onClick={() => handleClickEvent('+')} className="col-span-1  bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           +
         </button>
         <button onClick={() => handleClickEvent('0')} className="col-span-2 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
@@ -82,12 +80,12 @@ const Calculator = () => {
         <button onClick={() => handleClickEvent('.')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           .
         </button>
-        <button onClick={() => handleClickEvent('=')}className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
+        <button onClick={() => handleClickEvent('=')} className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           =
         </button>
       </div>
     </div>
   </div>
-);
-  };
+  );
+};
 export default Calculator;
