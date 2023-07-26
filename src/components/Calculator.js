@@ -1,8 +1,7 @@
-import React ,{ useState } from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-  const Calculator = () => {
-
+const Calculator = () => {
   const [state, setCalculatorData] = useState({
     total: null,
     next: null,
@@ -14,17 +13,18 @@ import calculate from '../logic/calculate';
     setCalculatorData(newState);
   };
 
-return(
+  return (
 
-    <div className="h-screen flex items-center justify-center bg-blue-600">
-    <div className="bg-white p-6 rounded-lg shadow-lg">
+  <div className="h-screen flex items-center justify-center bg-blue-600">
+      <div className="bg-white p-6 rounded-lg shadow-lg">
       <div className="grid grid-cols-4 gap-0.5">
         <div
-        className="col-span-4 text-right py-2 px-4 text-3xl border rounded bg-gray-700 text-white"
-        type="text"
-        readOnly> 
-      { state.next || state.total || '0'}
-      </div>
+          className="col-span-4 text-right py-2 px-4 text-3xl border rounded bg-gray-700 text-white"
+          type="text"
+        readOnly
+        >
+          { state.next || state.total || '0'}
+        </div>
 
         <button onClick={() => handleClickEvent('AC')} className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded" type="button">
           AC
@@ -85,7 +85,7 @@ return(
         </button>
       </div>
     </div>
-  </div>
+    </div>
   );
 };
 export default Calculator;
