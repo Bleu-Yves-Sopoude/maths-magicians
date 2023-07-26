@@ -22,137 +22,137 @@ const Calculator = () => {
             type="text"
             readOnly
           >
-            {state.next || state.total || "0"}
+            {state.next || state.total || '0'}
           </div>
 
           <button
-            onClick={() => handleClickEvent("AC")}
+            onClick={() => handleClickEvent('AC')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             AC
           </button>
           <button
-            onClick={() => handleClickEvent("+/-")}
+            onClick={() => handleClickEvent('+/-')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             +/-
           </button>
           <button
-            onClick={() => handleClickEvent("%")}
+            onClick={() => handleClickEvent('%')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             %
           </button>
           <button
-            onClick={() => handleClickEvent("÷")}
+            onClick={() => handleClickEvent('÷')}
             className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             ÷
           </button>
           <button
-            onClick={() => handleClickEvent("7")}
+            onClick={() => handleClickEvent('7')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             7
           </button>
           <button
-            onClick={() => handleClickEvent("8")}
+            onClick={() => handleClickEvent('8')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             8
           </button>
           <button
-            onClick={() => handleClickEvent("9")}
+            onClick={() => handleClickEvent('9')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             9
           </button>
           <button
-            onClick={() => handleClickEvent("x")}
+            onClick={() => handleClickEvent('x')}
             className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             x
           </button>
           <button
-            onClick={() => handleClickEvent("4")}
+            onClick={() => handleClickEvent('4')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             4
           </button>
           <button
-            onClick={() => handleClickEvent("5")}
+            onClick={() => handleClickEvent('5')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             5
           </button>
           <button
-            onClick={() => handleClickEvent("6")}
+            onClick={() => handleClickEvent('6')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             6
           </button>
           <button
-            onClick={() => handleClickEvent("-")}
+            onClick={() => handleClickEvent('-')}
             className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             -
           </button>
           <button
-            onClick={() => handleClickEvent("1")}
+            onClick={() => handleClickEvent('1')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             1
           </button>
           <button
-            onClick={() => handleClickEvent("2")}
+            onClick={() => handleClickEvent('2')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             2
           </button>
           <button
-            onClick={() => handleClickEvent("3")}
+            onClick={() => handleClickEvent('3')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             3
           </button>
           <button
-            onClick={() => handleClickEvent("+")}
+            onClick={() => handleClickEvent('+')}
             className="col-span-1  bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             +
           </button>
           <button
-            onClick={() => handleClickEvent("0")}
+            onClick={() => handleClickEvent('0')}
             className="col-span-2 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             0
           </button>
           <button
-            onClick={() => handleClickEvent(".")}
+            onClick={() => handleClickEvent('.')}
             className="col-span-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
             .
           </button>
           <button
-            onClick={() => handleClickEvent("=")}
+            onClick={() => handleClickEvent('=')}
             className="col-span-1 bg-yellow-400 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
             type="button"
           >
