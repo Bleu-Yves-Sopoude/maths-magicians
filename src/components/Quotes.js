@@ -1,7 +1,4 @@
-// src/App.js
-import React from "react";
-// Make sure to use the correct path to Calculator.j
-import { useState, useEffect } from "react";
+import { React, useState, useEffect } from 'react';
 
 function Quotes() {
   const [data, setData] = useState([]);
@@ -15,11 +12,11 @@ function Quotes() {
         const res = await fetch(
           "https://api.api-ninjas.com/v1/quotes?category=success",
           {
-            method: "GET",
+            method: 'GET',
             headers: {
-              "X-Api-Key": "r2CBEN9bBC4tHiqsYKa6/g==Ymb9Ax7CT5bvAly0",
+              'X-Api-Key': 'r2CBEN9bBC4tHiqsYKa6/g==Ymb9Ax7CT5bvAly0',
             },
-          }
+          },
         );
 
         const json = await res.json();
@@ -38,7 +35,7 @@ function Quotes() {
 
   return (
     <div>
-      <h2 class="ml-2 font-bold text-white text-align: center; dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg justify-center  ">
+      <h2 className="ml-2 font-bold text-white text-align: center; dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg justify-center  ">
         <ul>
           {data.map((item) => (
             <li key={item[0]}>
