@@ -17,6 +17,7 @@ const Calculator = () => {
     <div className="h-screen flex items-center justify-center bg-blue-600">
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="grid grid-cols-4 gap-0.5">
+           
           <div
             className="col-span-4 text-right py-2 px-4 text-3xl border rounded bg-gray-700 text-white"
             type="text"
