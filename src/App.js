@@ -5,7 +5,7 @@ import Quotes from './components/Quotes';
 
 const App = () => (
   <div>
-   <div><Quotes /></div>
+    <div><Quotes /></div>
     <Calculator />
   </div>
 );

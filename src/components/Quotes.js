@@ -10,7 +10,7 @@ function Quotes() {
       setIsLoading(true);
       try {
         const res = await fetch(
-          "https://api.api-ninjas.com/v1/quotes?category=success",
+          'https://api.api-ninjas.com/v1/quotes?category=success',
           {
             method: 'GET',
             headers: {
