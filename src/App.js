@@ -10,13 +10,13 @@ const App = () => (
   <BrowserRouter>
     <Navbar />
     <Routes>
-      <Route path='/home' element={<Home />}>
+      <Route path="/home" element={<Home />}>
         {' '}
       </Route>
-      <Route path='/calculator' element={<Calculator />}>
+      <Route path="/calculator" element={<Calculator />}>
         {' '}
       </Route>
-      <Route path='/quote' element={<Quotes />}>
+      <Route path="/quote" element={<Quotes />}>
         {' '}
       </Route>
     </Routes>
