@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Home = () => (
   <div className="h-screen   bg-blue-600 text-white text-2xl">
