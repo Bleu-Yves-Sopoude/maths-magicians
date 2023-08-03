@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 nav {
     display: flex;
     justify-content: space-between;

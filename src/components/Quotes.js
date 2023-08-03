@@ -35,7 +35,7 @@ function Quotes() {
 
   return (
     <div className="h-screen   bg-blue-600 flex items-center justify-center">
-      <h2 className="ml-2 font-bold text-white text-align: center; dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg justify-center   ">
+      <h2 className="ml-2 font-bold text-white text-align: center; dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg justify-center  text-3xl ">
         <ul>
           {data.map((item) => (
             <li key={item[0]}>
