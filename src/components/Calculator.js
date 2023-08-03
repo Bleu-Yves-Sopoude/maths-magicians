@@ -15,7 +15,7 @@ const Calculator = () => {
 
   return (
     <div className="h-screen flex items-center justify-center bg-blue-600">
-      <h3 className="ml-2 font-bold text-white dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg  margin-left: 0.125rem; absolute top-40 left-3.5 text-3xl" >Let's do some Math !</h3>
+      <h3 className="ml-2 font-bold text-white dark:text-gray-400 bg-green-500 p-6 rounded-lg shadow-lg  margin-left: 0.125rem; absolute top-40 left-3.5 text-3xl">Let s do some Math !</h3>
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="grid grid-cols-4 gap-0.5">
           <div
