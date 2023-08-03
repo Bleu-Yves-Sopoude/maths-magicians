@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav >
-    <h1 >Math Magicians</h1>
-    <ul >
+  <nav>
+    <h1>Math Magicians</h1>
+    <ul>
       <li>
         <NavLink to="/home">Home</NavLink>
       </li>

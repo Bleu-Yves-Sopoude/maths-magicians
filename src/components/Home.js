@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Home = () => (
-    <div  className="h-screen   bg-blue-600 text-white text-2xl">
-      <h3 class=" text-3xl" >Welcome to our page!</h3>
+  <div className="h-screen   bg-blue-600 text-white text-2xl">
+      <h3 className=" text-3xl" >Welcome to our page!</h3>
       <br />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque,
@@ -22,5 +22,5 @@ const Home = () => (
         nam aut!
       </p>
     </div>
-  );
-  export default Home;
+);
+export default Home;
