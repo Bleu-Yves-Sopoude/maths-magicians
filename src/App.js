@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import Calculator from './components/Calculator'; // Make sure to use the correct path to Calculator.js
+import Quotes from './components/Quotes';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />}>
+        {' '}
+      </Route>
+      <Route path="/calculator" element={<Calculator />}>
+        {' '}
+      </Route>
+      <Route path="/quote" element={<Quotes />}>
+        {' '}
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;

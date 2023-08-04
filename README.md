@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h2><b>Leaderboard</b></h2>
+  <h2><b>Math Magicians</b></h2>
 
 </div>
 
@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Leaderdoard\] ](#-leaderdoard-)
+- [📖 \[Math-Magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderdoard] <a name="about-project"></a>
+# 📖 [Math-Magicians] <a name="about-project"></a>
 
 **[Math magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
@@ -78,7 +78,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Bleu-Yves-Sopoude/Leaderboard.git
+git clone https://github.com/Bleu-Yves-Sopoude/maths-magicians.git
 
 ### Install
 
